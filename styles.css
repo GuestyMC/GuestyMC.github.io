@@ -1,0 +1,12 @@
+@charset="utf-8"
+  body {
+    font-family: Aldrich;
+    background-color: black;
+    color: #00ff00;
+}
+  .buttonclass {
+    border-style: double;
+    border-color: #00FF00;
+	  border-width: 20px;
+	  border-radius: 20px;
+  }
