@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.html$ - [L]
+Redirect 301 https://guestymc.github.io https://guestymc.framer.ai
+RewriteRule . /index.html [L]
+</IfModule>
